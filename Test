@@ -2,7 +2,7 @@ function postMessageToDiscord(message) {
 
   message = message || "Hello World!";
   
-  var discordUrl = 'https://discordapp.com/api/webhooks/labnol/123';
+  var discordUrl = 'https://discordapp.com/api/webhooks/652980791030317056/SlPTICB7e9k8Bb1KF4rwwC-CjzOtv2bH2d8a3IaPhpjUOP8yOH6Dn-zFlnD_tjRS53zg';
   var payload = JSON.stringify({content: message});
   
   var params = {
